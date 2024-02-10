@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #272424;
+        }
+
+        header {
+            background-color: #353131;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        
+    h6{
+    margin: 0%;
+    padding: 0%;
+    color: #111;
+    font-size: 2em;
+}
+
+h6 span{
+    display: table-cell;
+    margin: 10px;
+    padding: 1.5rem;
+    animation: animate 4s ease infinite;
+}
+
+h6 span:nth-child(6)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(7)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(8)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(9)
+{
+    animation-delay: 0.1s;
+}
+h6 span:nth-child(10)
+{
+    animation-delay: 0.1s;
+}
+
+
+@keyframes animate{
+
+    0%,100%{
+        color: #fff;
+        filter: blur(1px);
+        text-shadow: 0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 40px #fff;
+    }
+
+    5%,95%{
+        color: #111;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
+.bgimage {
+    height:100vh;
+    background: url('rog.webp');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.grid-container {
+    columns: 5 200px;
+    column-gap: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .grid-container div {
+    width: 150px;
+    margin: 0 1.5rem 1.5rem 0;
+    display: inline-block;
+    width: 100%;
+    border: solid 2px black;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .grid-container div:hover img {
+    filter: grayscale(0);
+  }
+
+  .grid-container div:hover {
+    border-color: coral;
+  }
+
+  .grid-container div img {
+    width: 100%;
+    filter: grayscale(100%);
+    border-radius: 5px;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .grid-container div p {
+    margin: 5px 0;
+    padding: 0;
+    text-align: center;
+    font-style: italic;
+  }
+.h2{
+    background: #0a040c;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background: linear-gradient(180deg,
+    orange,
+    red,
+    purple);
+    transition: all 0.3s;
+    display: flex;
+        
+}
+
+.child-card{
+    width: 100%;
+    height: 100%;
+    background-color: #101010;
+    transition: all 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    border-radius: 20px;
+}
+.card:hover .child-card{
+    scale: 0.95;
+    border-radius: 60px;
+}
+p{
+    color: ghostwhite;
+    display: flex;
+}
+.certificate {
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('rog4.webp');
+            background-size:cover;
+            position:relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+ .certifica {
+            max-width: 1600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('edu.webp');
+            background-size:cover;
+            position:relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .certi {
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('rog5.webp');
+            background-size:cover;
+            position:relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+.certificat {
+            max-width: 1600px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('rog3.webp');
+            background-size:cover;
+            position:relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+.certifi {
+            max-width: 1500px;
+            margin: 20px auto;
+            padding: 20px;
+            background: url('contact.webp');
+            background-size:cover;
+            position:relative;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+hr{
+    border-top: 1px solid purple;
+}
+</style>
+<body>
+    <header>
+        <center><p><h6>
+            <span>F</span>
+            <span>U</span>
+            <span>L</span>
+            <span>L</span>
+            <span> </span>
+            <span>S</span>
+            <span>T </span>
+            <span>A</span>
+            <span>C</span>
+            <span>K</span>
+            <span> </span>
+            <span>D</span>
+            <span>E</span>
+            <span>V</span>
+            <span>E</span>
+            <span>L</span>
+            <span>O</span>
+            <span>P</span>
+            <span>E</span>
+            <span>R</span>
+            <span></span>
+        </h6></p></center>
+    </header>
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title"><font color="black" face="Franklin Gothic Medium">Hi, my name is <font color="white">Anshul Lakshya</font></font></h2>
+                <p class="hero_desc"><font color="black" face="Calibri">As a passionate and forward-thinking technology student, I am driven by the curiosity to explore and master cutting-edge concepts in the world of Information Technology. Currently pursuing Master in Computer Application at Ajeenkya Dy Patil University,
+                     I am dedicated to honing my skills and embracing innovation in the ever-evolving tech landscape.</font></p>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="certificate">
+    <center>
+        <h1 style="background-color: rgb(61, 59, 59);"><font size="40px" color="white" face="Franklin Gothic Medium">SKILLS</font></h1>
+    <table>
+       <tr>
+        <th colspan="7"><p><font size="50px"></font></p></th>
+       </tr>
+        <tr>
+    <td><div class="card">
+        <div class="child-card"><p><font size="30px">HTML</font></p></div>
+
+    </div></td>
+    <td></td>
+    <td><div class="card">
+        <div class="child-card"><p><font size="30px">CSS</font></p></div>
+
+    </div></td>
+    <td></td>
+    <td>
+    <div class="card">
+        <div class="child-card"><p><font size="30px">JAVA</font></p></div>
+
+    </div></td>
+    <td></td>
+    <td>
+    <div class="card">
+        <div class="child-card"><p><font size="30px">PYTHON</font></p></div>
+
+    </div></td>
+    </tr>
+    </table>
+</center></section>
+<section class="certi">
+    <center><h1 style="background-color: rgb(61, 59, 59);"><font size="40px" color="white" face="Franklin Gothic Medium">Certifications</font></h1></center>
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Front End Developer</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">In this free, self-paced Front End Development course, I acquired a solid foundation in CSS. 
+            The curriculum covered CSS editors, selectors, comments, and syntax, guiding me through the design of websites. 
+            I gained proficiency in inline, internal, and external CSS, mastering attributes like color, background, border, and box models. 
+            The course also provided historical insights into CSS. 
+            I successfully completed assessments, demonstrating my skills and earning a certificate.</font> </p>
+    </div>
+
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Back-End Engineering</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Experienced back-end engineer with a proven track record in contributing to Lyft's success.
+             Proficient in key responsibilities such as system optimization, database management, and server-side development. 
+             Demonstrated ability to design and implement clean architectures for both new and existing components. 
+            Skilled in troubleshooting, debugging, and enhancing software performance.</font> </p>
+    </div>
+
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Cyber-Security Management</font></h3>
+
+        <p style="background-color: #0a040c;">  <font face="Cambria" size="5px" color="white">Recent graduate with hands-on experience in Cyber Security Management from ANZ Australia, gained through a comprehensive simulation on Forage.
+             Successfully identified cybersecurity threats, investigated suspicious items in emails, and demonstrated proficiency in analyzing Packet Capture files using open-source tools</font> </p>
+    </div>
+
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">HTML Attributes and Tags</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Enthusiastic learner with a solid foundation in HTML attributes and tags, acquired through a comprehensive course. 
+            Well-versed in the anatomy of HTML tags, I understand their crucial role in structuring web pages and influencing website design. 
+            Proficient in embedding diverse elements like text, images, and videos, enhancing web page functionality. </font> </p>
+    </div>
+
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">BUILD RESPONSIVE WEBSITE UING HEILS, CSS, JS AND BOOTSTRAP</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Accomplished professional with a successful completion of a comprehensive course in building responsive websites using HTML, CSS, JavaScript, and Bootstrap.
+            Adept at creating visually appealing and user-friendly web interfaces by leveraging a combination of front-end technologies.
+             Demonstrated proficiency in designing and implementing responsive layouts to ensure optimal user experience across various devices.
+              Possesses a solid understanding of HTML, CSS, and JavaScript, with hands-on experience in utilizing Bootstrap for enhanced design and functionality.
+               Ready to apply these skills in contributing to the development of dynamic and responsive websites in a professional setting.
+ </font> </p>
+    </div>
+</section>
+<section class="certificat">
+    <center><h1 style="background-color: rgb(61, 59, 59);"><font size="40px" color="white" face="Franklin Gothic Medium">Projects</font></h1></center>
+      
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Anime Quote Gallary - HTML && CSS</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Developed and implemented an Anime Quote Gallery project utilizing HTML and CSS. 
+            Demonstrated proficiency in front-end web development by creating an aesthetically pleasing and responsive user interface.
+             Applied HTML for structuring content and CSS for styling, ensuring a visually engaging and user-friendly experience.  </font> </p>
+    </div>
+
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Social Work Website</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Initiated and led the development of a community-centric social work website dedicated to showcasing ongoing social initiatives within my hometown. 
+            Designed and implemented the user interface to effectively represent our community's impactful work. 
+            Currently overseeing the final stages of development with plans for a live launch. 
+            This project not only demonstrates my proficiency in web development and design but also underscores my commitment to leveraging technology for community betterment. </font> </p>
+    </div>
+    
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Photography Website</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white">Collaboratively participated in a group project during my BCA degree, contributing to the design phase for a photography website.
+             Played a key role in creating an engaging and visually appealing interface to showcase the portfolio effectively. 
+             This experience honed my skills in web design and teamwork, highlighting my ability to contribute creatively to a project within a group setting.
+        </font> </p>
+    </div>
+    
+    <div class="project">
+
+        <h3><font face="Arial Black" size="5px" color="white">Mini projects</font></h3>
+
+        <p style="background-color: #0a040c;"> <font face="Cambria" size="5px" color="white"><ul type="disc">
+            <li>Follow logo icon</li>
+            <li>Historical Places website</li>
+            <li>Hidden Social Media Icons</li>
+        </ul>  </font> </p>
+    </div>
+    
+
+
+</section>
+
+<section class="certifica">
+
+    <center><h1 style="background-color: rgb(61, 59, 59);"><font size="40px" color="white" face="Times New Roman">Education</font></h1></center>
+
+     <ol>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">Master in Computer Application - Ajeenkya DY Patil University</font></h3></li>
+        <hr>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">Bachelor of Computer Application - Birla Institute of Technology, Mesra 2023</font></h3></li>
+        <hr>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">10th and 12th completed from Kairali School 2021</font></h3></li>
+        <hr>
+     </ol>
+
+</section>
+
+<section class="certifi">
+    
+    <center><h1 style="background-color:rgb(61, 59, 59);"><font size="40px" color="white" face="Times New Roman">Contact Information</font></h1></center>
+    <ul>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">Email</font></h3></li>
+        <li><font face="等线 Light" size="3px" color="white">anshullakshya28@gmail.com</font></li>
+        <hr>
+        <hr>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">Phone No:</font></h3></li>
+        <li><font face="等线 Light" size="3px" color="white">990XXXX015</font></li>
+        <hr>
+        <hr>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">Hackerrank</font></h3></li>
+        <li><a href=""><font face="等线 Light" size="3px" color="white">@anshullakshya28</font></a></li>
+        <hr>
+        <hr>
+        <li>  <h3><font face="Arial Black" size="5px" color="white">LinkedIn</font></h3></li>
+        <li><a><font face="等线 Light" size="5px" color="white"></font></a></li>
+        <hr>
+        <hr>
+     <ul>
+
+    
+    </section>
+
+</body>
+</html>
